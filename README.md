@@ -9,11 +9,9 @@
 [![Install DockerSlim](https://img.shields.io/badge/install-docker--slim-blue?style=for-the-badge)](https://github.com/docker-slim/docker-slim#installation)
 [![Get Examples](https://img.shields.io/badge/docker--slim-app%20examples-green?style=for-the-badge)](https://github.com/docker-slim/examples)
 
-[![Try Slim SaaS](https://img.shields.io/badge/try-Slim%20SaaS-red?style=for-the-badge)](https://portal.slim.dev/login?invitecode=invite.1s85zlfnYX0p5TT1XKja49pAHbL)
 
 
-
-# Optimize Your Experience with Containers. Make Your Containers Better, Smaller, More Secure and Do Less to Get There (free and open source!)
+# Optimize Your Experience with Containers. Make Your Containers Better, Smaller, More Secure and Do Less to Get There (free and open source!) - current version: https://github.com/mintoolkit/mint
 
 Don't change anything in your Docker container image and minify it by up to 30x making it secure too! Optimizing images isn't the only thing it can do though. It can also help you understand and author better container images.
 
@@ -22,8 +20,6 @@ Keep doing what you are doing. No need to change anything. Use the base image yo
 Don't worry about manually creating Seccomp and AppArmor security profiles. You shouldn't have to become an expert in Linux syscalls, Seccomp and AppArmor to have secure containers. Even if you do know enough about it wasting time reverse engineering your application behavior can be time-consuming.
 
 `docker-slim` will optimize and secure your containers by understanding your application and what it needs using various analysis techniques. It will throw away what you don't need, reducing the attack surface of your container. What if you need some of those extra things to debug your container? You can use dedicated debugging side-car containers for that (more details below).
-
-Understand your container image before and after you optimize it using the `xray` command in `docker-slim` or the [Slim SaaS](https://portal.slim.dev/login?invitecode=invite.1s85zlfnYX0p5TT1XKja49pAHbL) where you can get even more powerful insights including how your container image changed.
 
 `docker-slim` has been used with Node.js, Python, Ruby, Java, Golang, Rust, Elixir and PHP (some app types) running on Ubuntu, Debian, CentOS, Alpine and even Distroless.
 
@@ -248,10 +244,6 @@ docker pull dslim/docker-slim
 ```
 
 See the [RUNNING CONTAINERIZED](#running-containerized) section for more usage info.
-
-### SaaS
-
-Powered by DockerSlim. It will help you understand and troubleshoot your application containers and a lot more. If you use the `xray` command you'll want to try the SaaS. Understanding image changes is easy with its container diff capabilities. Connect your own registry and you can do the same with your own containers. Try it [here](https://portal.slim.dev/login?invitecode=invite.1s85zlfnYX0p5TT1XKja49pAHbL) without installing anything locally.
 
 
 ## BASIC USAGE INFO
